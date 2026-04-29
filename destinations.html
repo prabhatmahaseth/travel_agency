@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WanderWave Travels | Destinations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">WanderWave</a>
+      <button class="nav-toggle" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header destinations-header">
+      <div class="container">
+        <span class="eyebrow">Destination gallery</span>
+        <h1>Travel to the world's most inspiring places.</h1>
+        <p>Search by destination or filter by experience to find your next dream trip.</p>
+      </div>
+    </section>
+
+    <section class="container search-section">
+      <div class="search-group">
+        <label for="destination-search">Search destinations</label>
+        <input id="destination-search" type="search" placeholder="Search by location, type or experience" />
+      </div>
+    </section>
+
+    <section class="container destination-grid" id="destination-grid">
+      <article class="destination-item" data-keywords="beach luxury tropical family">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Maldives resort" />
+        <div class="destination-info">
+          <h2>Maldives</h2>
+          <p>Relax in an overwater villa, snorkel vibrant reefs, and enjoy island privacy.</p>
+        </div>
+      </article>
+      <article class="destination-item" data-keywords="city luxury shopping desert adventure">
+        <img src="https://images.unsplash.com/photo-1533106418985-88763b71628b?auto=format&fit=crop&w=900&q=80" alt="Dubai skyline" />
+        <div class="destination-info">
+          <h2>Dubai</h2>
+          <p>Experience luxury hotels, desert safaris, and iconic city views.</p>
+        </div>
+      </article>
+      <article class="destination-item" data-keywords="mountain winter adventure nature chalet">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Swiss Alps" />
+        <div class="destination-info">
+          <h2>Swiss Alps</h2>
+          <p>Discover alpine villages, scenic hiking trails, and world-class slopes.</p>
+        </div>
+      </article>
+      <article class="destination-item" data-keywords="beach culture historic architecture">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Santorini" />
+        <div class="destination-info">
+          <h2>Santorini</h2>
+          <p>Enjoy cliffside views, blue-domed churches, and stunning Mediterranean sunsets.</p>
+        </div>
+      </article>
+      <article class="destination-item" data-keywords="wildlife safari nature luxury adventure">
+        <img src="https://images.unsplash.com/photo-1531386451131-88f97c2f56c8?auto=format&fit=crop&w=900&q=80" alt="African safari" />
+        <div class="destination-info">
+          <h2>Kenya Safari</h2>
+          <p>Witness wildlife in vast savannahs and stay in eco-conscious luxury lodges.</p>
+        </div>
+      </article>
+      <article class="destination-item" data-keywords="city culture cuisine nightlife art">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80" alt="Tokyo night" />
+        <div class="destination-info">
+          <h2>Tokyo</h2>
+          <p>Immerse yourself in vibrant street scenes, culture, and culinary discoveries.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="gallery-section container">
+      <div class="section-heading">
+        <h2>Image Gallery</h2>
+        <p>Preview more of the places our travelers love.</p>
+      </div>
+      <div class="gallery-slider" id="gallery-slider">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1511447333013-3f6f5f8614c7?auto=format&fit=crop&w=1200&q=80');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80');"></div>
+      </div>
+      <div class="slider-controls">
+        <button type="button" class="slider-button" data-action="prev">Prev</button>
+        <button type="button" class="slider-button" data-action="next">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 WanderWave Travels | Designed for memorable journeys</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
